@@ -6,7 +6,9 @@ authors = ["gerson.scheffer <gerson.scheffer@poatek.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Scrapy = "^2.6.2"
+pandas = "^1.4.3"
+ipykernel = "^6.15.2"
+openpyxl = "^3.0.10"
 
 [tool.poetry.dev-dependencies]
 
