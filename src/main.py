@@ -24,7 +24,7 @@ for i in e_lst:
     print(data.get("name"))
     df = pd.read_csv(data.get("path"))
 #%%
-df.info()
+df.head()
 #%%
 
 
